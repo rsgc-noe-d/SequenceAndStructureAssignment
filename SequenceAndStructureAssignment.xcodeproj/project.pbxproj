@@ -6,32 +6,9 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXCopyFilesBuildPhase section */
-		81542FF61E64934F006CE834 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
 		815430031E649390006CE834 /* Assignment.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Assignment.playground; sourceTree = "<group>"; };
-		815430041E64B805006CE834 /* SequenceAndStructureAssignment */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = SequenceAndStructureAssignment; path = /Users/russellgordon/Repositories/SequenceAndStructureAssignment/build/Debug/SequenceAndStructureAssignment; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		81542FF51E64934F006CE834 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		81542FEF1E64934F006CE834 = {
@@ -52,26 +29,6 @@
 		};
 /* End PBXGroup section */
 
-/* Begin PBXNativeTarget section */
-		81542FF71E64934F006CE834 /* SequenceAndStructureAssignment */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 81542FFF1E64934F006CE834 /* Build configuration list for PBXNativeTarget "SequenceAndStructureAssignment" */;
-			buildPhases = (
-				81542FF41E64934F006CE834 /* Sources */,
-				81542FF51E64934F006CE834 /* Frameworks */,
-				81542FF61E64934F006CE834 /* CopyFiles */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SequenceAndStructureAssignment;
-			productName = SequenceAndStructureAssignment;
-			productReference = 815430041E64B805006CE834 /* SequenceAndStructureAssignment */;
-			productType = "com.apple.product-type.tool";
-		};
-/* End PBXNativeTarget section */
-
 /* Begin PBXProject section */
 		81542FF01E64934F006CE834 /* Project object */ = {
 			isa = PBXProject;
@@ -79,13 +36,6 @@
 				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Russell Gordon";
-				TargetAttributes = {
-					81542FF71E64934F006CE834 = {
-						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = U2ZN2W2UQJ;
-						ProvisioningStyle = Automatic;
-					};
-				};
 			};
 			buildConfigurationList = 81542FF31E64934F006CE834 /* Build configuration list for PBXProject "SequenceAndStructureAssignment" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -99,20 +49,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				81542FF71E64934F006CE834 /* SequenceAndStructureAssignment */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXSourcesBuildPhase section */
-		81542FF41E64934F006CE834 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
 		81542FFD1E64934F006CE834 /* Debug */ = {
@@ -203,24 +142,6 @@
 			};
 			name = Release;
 		};
-		815430001E64934F006CE834 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEVELOPMENT_TEAM = U2ZN2W2UQJ;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Debug;
-		};
-		815430011E64934F006CE834 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEVELOPMENT_TEAM = U2ZN2W2UQJ;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -229,15 +150,6 @@
 			buildConfigurations = (
 				81542FFD1E64934F006CE834 /* Debug */,
 				81542FFE1E64934F006CE834 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		81542FFF1E64934F006CE834 /* Build configuration list for PBXNativeTarget "SequenceAndStructureAssignment" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				815430001E64934F006CE834 /* Debug */,
-				815430011E64934F006CE834 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
