@@ -33,10 +33,24 @@ for x in stride(from: 25, through: 475, by: 50){
         
         // Draw the shapes
         canvas.drawEllipse(centreX: x, centreY: y, width: 2, height: 2)
-        canvas.drawRectangle(centreX: x, centreY: y, width: 50, height: 50)
+        //canvas.drawRectangle(centreX: x, centreY: y, width: 50, height: 50)
+    canvas.drawLine(fromX: x   , fromY: y, toX: x, toY: 5*y)
+         canvas.drawLine(fromX: x, fromY: y, toX: 5*x, toY: y)
     }
+    
 }
 
+for x in stride(from: 25, through: 475, by: 50){
+    
+       for y in stride(from: 25, through: 475, by: 50) {
+        
+        for z in stride(from: 25, through: 50, by: 5){
+            
+    canvas.borderColor = Color(hue: x, saturation: 100, brightness: 100, alpha: 100)
+     canvas.drawEllipse(centreX: x, centreY: y, width: z, height: z)
+        }
+    }
+}
 
 /*:
  ## Template code
